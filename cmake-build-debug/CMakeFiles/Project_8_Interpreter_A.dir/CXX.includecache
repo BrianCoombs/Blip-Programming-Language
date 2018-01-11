@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/ExpTree.cpp
+ExpTree.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/ExpTree.h
+Interpreter.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.h
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/ExpTree.h
+vector
+-
+iostream
+-
+String.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/String.h
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Input.cpp
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+cstring
+-
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+Interpreter.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.h
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.cpp
+iostream
+-
+Interpreter.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.h
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+String.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/String.h
+ExpTree.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/ExpTree.h
+map
+-
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.h
+String.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/String.h
+ExpTree.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/ExpTree.h
+map
+-
+stdint.h
+-
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+stdint.h
+-
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/String.h
+stdlib.h
+-
+stdint.h
+-
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/main.cpp
+main.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/main.h
+iostream
+-
+Interpreter.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Interpreter.h
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/main.h
+Parse.h
+/Users/briancoombs/Library/Mobile Documents/com~apple~CloudDocs/Programming/EE312/Project 8 Interpreter A/Parse.h
+

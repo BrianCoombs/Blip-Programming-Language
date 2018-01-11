@@ -1,0 +1,14 @@
+var x 4
+do <= x 20
+    do < x 19
+        if == x 9
+            output + x 1
+        fi
+        set x + x 1
+    od
+    set x + x 1
+    output x
+od
+
+text "Hello World\n"
+

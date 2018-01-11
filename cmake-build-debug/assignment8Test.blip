@@ -1,0 +1,155 @@
+text "Let's test the output command\n"
+text "Answer should be 1 -- "
+output 1
+text \n
+text "Answer should be 3 -- "
+output + 1 2
+text \n
+text "Answer should be 10 -- "
+output + + 1 2 + 3 4
+text \n
+text "Answer should be 30 -- "
+output *  5 6
+text \n
+text "Answer should be 400 -- "
+output * * 4 5 * 2 10
+text \n
+text "Answer should be 40 -- "
+output + * 4 5 * 2 10
+text \n
+text "Answer should be 0 -- "
+output - * 4 5 * 2 10
+text \n
+text "Answer should be 18 -- "
+output + + 20 8 ~ 10
+text \n
+text "Answer should be 30 -- "
+output + + 20 5 / 10 2
+text \n
+text "Answer should be -3 -- "
+output / + 20 10 ~ 10
+text \n
+text "Answer should be 30 -- "
+output + + 20 8 % 50 8
+text \n
+text "Answer should be 30 -- "
+output + + 20 2 % 8 50
+text \n
+text \n
+text "Let's test the var command\n"
+var x 5
+text "Var x should be 5 -- "
+output x
+text \n
+text "Answer should be 100 -- "
+output + * x 10 * 10 x
+text \n
+var y + x 5
+text "Var y should be 10 -- "
+output y
+text \n
+var z + y x
+text "Var z should be 15 -- "
+output z
+text \n
+var a + x z
+text "Var a should be 20 -- "
+output a
+text \n
+text "Answer should be 50 -- "
+output + + x y + z a
+text \n
+text \n
+text "Let's test the set command\n"
+set x 100
+set y + x 100
+set z + y x
+set a + + x y + z 100
+text "Var [x,y,z,a] should be [100, 200, 300, 700] -- "
+output x
+text ", "
+output y
+text ", "
+output z
+text ", "
+output a
+text \n
+text \n
+text "Let's try some comparison/logical stuff\n"
+text "Answer should be 1 -- "
+output && 5 42
+text \n
+text "Answer should be 11 -- "
+output + && 6 12 10
+text \n
+text "Answer should be 10 -- "
+output + && 0 1 10
+text \n
+text "Answer should be 11 -- "
+output + || 0 1 10
+text \n
+text "Answer should be 10 -- "
+output + && 0 0 10
+text \n
+text "Answer should be 11 -- "
+output + + 6 4 || 1 0
+text \n
+text "Answer should be 10 -- "
+output + + 6 4 && 1 0
+text \n
+text "Answer should be 11 -- "
+output + + 6 4 > 1 0
+text \n
+text "Answer should be 10 -- "
+output + + 6 4 < 1 0
+text \n
+text "Answer should be 11 -- "
+output + + 6 4 == 1 1
+text \n
+text "Answer should be 10 -- "
+output + + 6 4 <= 1 0
+text \n
+text "Answer should be 11 -- "
+output + + 6 4 >= 1 0
+text \n
+text "Answer should be 10 -- "
+output + + 6 4 != 0 0
+text \n
+text "Answer should be 11 -- "
+output + + 6 4 != 1 0
+text \n
+text \n
+text "Let's test comments\n"
+// output 6
+text "Answer should be 6 -- "
+output 6 // prints 6
+text \n
+text "Answer should be 20 -- "
+output + + 6 4 + 3 7 // + 10
+text \n
+text \n
+text "Let's test unary operator\n"
+text "Answer should be 0 -- "
+output ! 42
+text \n
+text "Answer should be 1 -- "
+output ! 0
+text \n
+text "Answer should be 11 -- "
+output + + 4 6 ! 0
+text \n
+text "Answer should be 10 -- "
+output + + 4 6 ! 1
+text \n
+text "Answer should be 5 -- "
+output + + 4 6 ~ 5
+text \n
+text \n
+text "And for the grand finale\n"
+text "Answer should be 1000 -- "
+output * * + / 10 2 + 3 2 * 2 5 % 10 20
+text \n
+text "Answer should be 1 -- "
+output / * + / 10 2 + 3 2 - * 10 10 + 50 40 * + / 10 2 + 3 2 - * 10 10 + 50 40
+text \n
+text \n

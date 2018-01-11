@@ -1,0 +1,26 @@
+
+var x 1
+var y 1
+var z 1
+do < x 10
+    set y 1
+    do < y 10
+        set z 1
+        do < z 10
+            if == z y
+                if == z x
+                    output * * x y z    //prints all the cubes
+                    if != z 9
+                    else
+                         output * * * x y z z   //prints largest cube * 9
+                    fi
+                else
+
+                fi
+            fi
+            set z + z 1
+        od
+        set y + y 1
+    od
+    set x + x 1
+od

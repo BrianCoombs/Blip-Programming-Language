@@ -1,0 +1,36 @@
+var x 1
+var y 1
+do <= x 10
+    output x
+    text \n
+    set x + x 1
+    set y 1
+    do < y 10
+        output y
+        set y + y 1
+    od
+od
+output x
+var z 2
+text "loop should go up by 2"
+output x
+do <= x 20
+    set x + x z
+    output x
+od
+if > x 10
+    text "x is greater than 10"
+    if < x 20
+        text "x is greater than 10 and less than 20"
+    else
+        text "x is greater than 10 and greater than 20"
+    fi
+else
+    text "x is less than 10"
+    if > x 5
+        text "x is less than 10 but greater than 5"
+    else
+        text "x is less than 10 and less than 5"
+    fi
+fi
+
